@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.7.11",
+  "package": "club.someoneice.lotrtweakers.mixin",
+  "refmap": "mixins.lotrtweakers.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinGuiHandler"
+  ]
+}
